@@ -6,7 +6,8 @@ using namespace std;
 
 // you define g(x) here
 double g(double x) {
-    return 2 * sin(sqrt(x));
+    // f(x) = 3x - cos x - 1 
+    return (cos(x) + 1) / 3;
 }
 
 int main() {
@@ -17,7 +18,7 @@ int main() {
     cout << "i\tx" << endl;
 
     int n = 100;          // number of iterations
-    double x = 0.5;       // initial guess
+    double x = 0.0;       // initial guess
     double e = 0.0000001;  // error tolerance = 10^-7
     
     for (int i = 0; i < n; ++i) {
