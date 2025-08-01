@@ -4,7 +4,6 @@
 
 using namespace std;
 
-
 int main() {
     // define the system
     double a[3][3] = {
